@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>J's Gallery</title>
+
+    <style>
+        body {
+
+            font-family: Georgia, serif;
+        }
+
+        .container {
+            background: white;
+            padding: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: blue;
+        }
+
+        .top-section {
+            display: flex;
+            gap: 92px;
+        }
+
+        .text {
+            width: 60%;
+            font-size: 14px;
+        }
+
+        .top-image {
+            display: flex;
+            justify-content: right;
+            width: 30%;
+        }
+
+        .top-image img {
+            width: 100%;
+            border: 1px solid #ccc;
+        }
+
+        .gallery {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 62% 38%;
+
+        }
+
+        .gallery img,
+        .gallery video {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>J's Gallery</h1>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Gallery</a>
+        </nav>
+
+        <div class="top-section">
+
+            <div class="text">
+                <p>
+                    Lorem ipsum odor amet, consectetuer adipiscing elit. Praesent mollis adipiscing per id libero
+                    libero. Tempus pretium netus molestie scelerisque facilisis tristique volutpat ultricies. Nostra
+                    ligula ac pulvinar rutrum non rhoncus mauris facilisi. Quisque maximus commodo sollicitudin, montes
+                    congue imperdiet. Est malesuada vivamus vestibulum ante aenean class. Per integer aptent ullamcorper
+                    sagittis posuere dignissim morbi scelerisque. Fringilla primis sagittis lorem erat integer;
+                    vulputate nullam. Porta purus habitant id fermentum nec ex, proin mauris sem.
+
+                </p>
+
+                <p>
+
+                    Lectus ultrices nibh lobortis tempus facilisis sit conubia taciti. Non torquent amet nibh elit ante
+                    fermentum praesent cras. Et suspendisse egestas eros erat aptent sollicitudin. Nulla tortor purus
+                    posuere auctor himenaeos malesuada. Turpis phasellus enim venenatis aliquam pellentesque senectus,
+                    id ultrices. Praesent tellus consequat phasellus cubilia mattis mauris natoque litora. Fringilla
+                    cursus montes inceptos nec venenatis platea.
+                </p>
+
+
+            </div>
+
+            <div class="top-image">
+                <img src="COW.jpg">
+            </div>
+
+        </div>
+
+    </div>
+    <div class="gallery">
+
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+
+        <img src="img4598.jpg">
+
+        <img src="img4532.jpg">
+
+        <img src="photo_2018_02_01.jpg">
+
+        <img src="photo_2018_02_31.jpg">
+
+        <img src="johns car jpg.jpg">
+
+    </div>
+
+</body>
+
+</html>
